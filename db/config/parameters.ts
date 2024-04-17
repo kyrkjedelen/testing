@@ -1,6 +1,5 @@
 import "dotenv"
 import * as process from "node:process";
-import {ClientConfig} from "pg";
 
 const enviromentVariables = process.env;
 
