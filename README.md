@@ -10,6 +10,7 @@ DATABASE_HOST
 DATABASE_NAME
 DATABASE_USER
 DATABASE_PASSWORD
+DATABASE_ENABLE_SSL (either true or false, probably true)
 
 Generate migration files:
 pnpm run db:generate
