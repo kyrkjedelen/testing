@@ -1,8 +1,21 @@
-```
-npm install
-npm run dev
-```
+Use pnpm.
 
-```
-open http://localhost:3000
-```
+
+Start:
+pnpm install
+
+Setup database connection:
+Set all these enviroment variables:
+DATABASE_HOST
+DATABASE_NAME
+DATABASE_USER
+DATABASE_PASSWORD
+
+Generate migration files:
+pnpm run db:generate
+
+Migrate current migration files:
+pnpm run db:migrate
+
+Run:
+pnpm run dev
